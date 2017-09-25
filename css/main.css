@@ -30,7 +30,12 @@ html {
 }
 
 .nav a:hover {
-
+  background-color: #fff;
+  color: #145b1d;
+  background-image: url("../images/leaf-icon.svg");
+  background-size: 64px auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner {
@@ -45,7 +50,7 @@ html {
   background-image: url("../images/two-leaves.svg");
   background-size: 64px auto;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: left top;
 }
 
 @media only screen and (min-width: 60em) {
