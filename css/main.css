@@ -8,8 +8,8 @@ html {
   background-size: 64px auto;
   background-repeat: repeat;
   background-position: left top;
-  border-top: 3px solid rgba(16, 52, 41, .8);
-  border-bottom: 3px solid rgba(16, 52, 41, .8);
+  border-top: 3px solid  #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 .logo {
@@ -39,18 +39,20 @@ html {
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  border-bottom: 3px solid #588477;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:
+  background-position: bottom;
 }
 
 .banner-content {
+  padding-top: 300px;
   color: white;
   background-image: url("../images/two-leaves.svg");
-  background-size: 64px auto;
+  background-size: auto 100px;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: 11px 180px;
 }
 
 @media only screen and (min-width: 60em) {
